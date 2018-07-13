@@ -327,4 +327,4 @@ function main(subs,sel)
 	return sel
 end
 
-aegisub.register_macro(submenu.."/"..script_name, script_description, main)
+version:registerMacro(submenu.."/"..script_name, script_description, main)

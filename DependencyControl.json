@@ -9,20 +9,21 @@
   "fileBaseUrl": "https://raw.githubusercontent.com/Bl4Cc4t/aegisub-automation-scripts/@{channel}/@{namespace}",
 
   "macros": {
-    "bl4.advancedAlpha": { "url": "@{baseUrl}#@{namespace}",
+    "bl4.advancedAlpha": {
+      "url": "@{baseUrl}#@{namespace}",
       "author": "Bl4Cc4t",
       "name": "advancedAlpha",
       "description": "Create an advanced alpha time from selection",
       "channels": {
         "master": {
-          "version": "0.4",
+          "version": "0.4.1",
           "released": "2018-07-13",
           "default": true,
           "files": [
             {
               "name": ".lua",
               "url": "@{fileBaseUrl}@{fileName}",
-              "sha1": "ac62d97c03e85ff5c8cfda75c4abcac0c33ecbbe"
+              "sha1": "d03dfe059075aec4bac50d3feddc3cc1b2b3b0b6"
             }
           ],
           "requiredModules": []
