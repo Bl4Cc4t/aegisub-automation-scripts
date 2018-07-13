@@ -1,0 +1,49 @@
+{
+  "dependencyControlFeedFormatVersion": "0.3.0",
+  "name": "Bl4Cc4t’s Aegisub Scripts",
+  "description": "some scripts to make your life easier",
+  "maintainer": "Bl4Cc4t",
+  "knownFeeds": {},
+  "baseUrl": "https://github.com/Bl4Cc4t/aegisub-automation-scripts",
+  "url": "@{baseUrl}",
+  "fileBaseUrl": "https://raw.githubusercontent.com/Bl4Cc4t/aegisub-automation-scripts/@{channel}/@{namespace}",
+
+  "macros": {
+    "bl4.advancedAlpha": { "url": "@{baseUrl}#@{namespace}",
+      "author": "Bl4Cc4t",
+      "name": "advancedAlpha",
+      "description": "Create an advanced alpha time from selection",
+      "channels": {
+        "master": {
+          "version": "0.4",
+          "released": "2018-07-13",
+          "default": true,
+          "files": [
+            {
+              "name": ".lua",
+              "url": "@{fileBaseUrl}@{fileName}",
+              "sha1": "ac62d97c03e85ff5c8cfda75c4abcac0c33ecbbe"
+            }
+          ],
+          "requiredModules": []
+        }
+      },
+      "changelog": {
+        "0.1.0": [
+          "Initial release (rewrite of ua.BlurAndGlow.lua)"
+        ],
+        "0.3.0": [
+          "added PoRO style 7 (yellow to green)",
+          "added PoRO style 8 (pink gradient 2, italic)",
+          "new RTL option for the normal alpha"
+        ],
+        "0.3.5": [
+          "added PoRO style 9 (yellow to light blue)"
+        ],
+        "0.4": [
+          "added DependencyControl support"
+        ]
+      }
+    },
+  },
+  "modules": {}

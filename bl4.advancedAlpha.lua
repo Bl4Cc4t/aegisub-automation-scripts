@@ -2,13 +2,18 @@ script_name="advancedAlpha"
 script_description="Create an advanced alpha time from selection"
 script_author="Bl4Cc4t"
 script_url=""
-script_version="0.35"
+script_version="0.4"
 script_namespace="bl4.advancedAlpha"
 submenu="_Bl4Cc4t’s Scripts"
 
 -- modification of ua.BlurAndGlow.lua
 
 --  --  --  --  --
+
+local DependencyControl = require("l0.DependencyControl")
+local version = DependencyControl{
+  feed = "https://raw.githubusercontent.com/Bl4Cc4t/aegisub-automation-scripts/master/DependencyControl.json"
+}
 
 function alpha(subs,sel)
   lettersInAllLines=0
@@ -189,7 +194,7 @@ function alpha(subs,sel)
         bordSize        = "\\bord0"
         additionalTags  = ""
         newTagPositionY1=tagPositionY-clipMod*6
-        newTagPositionY2=tagPositionY-clipMod*3		
+        newTagPositionY2=tagPositionY-clipMod*3
       end
 
 
