@@ -40,8 +40,11 @@
         "0.3.5": [
           "added PoRO style 9 (yellow to light blue)"
         ],
-        "0.4": [
+        "0.4.0": [
           "added DependencyControl support"
+        ],
+        "0.4.1": [
+          "testing DependencyControl support"
         ]
       }
     },

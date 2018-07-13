@@ -2,7 +2,7 @@ script_name="advancedAlpha"
 script_description="Create an advanced alpha time from selection"
 script_author="Bl4Cc4t"
 script_url=""
-script_version="0.4.0"
+script_version="0.4.1"
 script_namespace="bl4.advancedAlpha"
 submenu="_Bl4Cc4t’s Scripts"
 
